@@ -1,0 +1,19 @@
+# workflow 명칭
+name: CI/CD gitaction 테스트
+
+# event
+on:
+  push:
+    branches:
+      - test
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 안녕 말하기
+        run: echo HI
+
+      - name: Say Hi again
+        run: HI too 1234 하하~
