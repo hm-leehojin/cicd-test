@@ -16,4 +16,4 @@ jobs:
         run: echo HI
 
       - name: Say Hi again
-        run: HI too 1234 하하~
+        run: echo HI too 1234 하하~
